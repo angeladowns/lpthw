@@ -4,7 +4,8 @@ x = f"There are {types_of_people} types of people."
 binary = "binary" # this is a string
 do_not = "don't"  # this is a string
 # this is a string inside a string... twice.
-y = f"Those who know {binary} and those who {do_not}."
+y = f"Those who know {binary} and those who {do_not}." # removed `f` to cause a break
+print(">>>> after assign y", y)
 
 print(x)
 print(y)
