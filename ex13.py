@@ -2,6 +2,8 @@ from sys import argv
 # read the What You Should See section for how to run this
 # assigning variables to argv
 script, first, second, third = argv
+# answers the question "What is argv?"
+print(">>>> argv=", repr(argv))
 
 print("The script is called:", script)
 print("Your first variable is:", first)
