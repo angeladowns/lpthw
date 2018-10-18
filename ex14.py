@@ -13,7 +13,12 @@ likes = input(prompt)
 print(f"Where do you live, {user_name}?")
 lives = input(prompt)
 
-print("What kind of computer do you have?")
+# this forces the age to be an integer.
+print(f"How old are you, {user_name}?")
+age = int(input(prompt))
+
+# using an input (age) in a print statement.
+print(f"You're {age}? What kind of computer do you have?")
 computer = input(prompt)
 
 print("Are you hungry?")
