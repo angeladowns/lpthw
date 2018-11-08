@@ -1,0 +1,28 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>START
+This is a test file for Command Line Crash Course.
+Commands To Memorize
+pwd
+  print working directory (shows you what folder you're working in right now)
+hostname
+  my computer’s network name
+mkdir mkdir newfolder
+  make directory (creates a folder;  use " " for directory names with spaces, ex: mkdir "I Have Fun"
+cd
+  change directory (cd ~ will take you home if you get lost; cd .. will take you back one folder; cd ../.. will take you back two folders; cd ../../../../../.. will take you back six folders; )
+ls
+  list directory (this lists all the folders inside the folder you're working in; use ls -1R to see a breakdown of all the folders inside the folder you're in.)
+rmdir rmdir oldfolder
+  remove directory (deletes a folder but it must be empty first)
+pushd pushd path/to/folder
+  push directory (like sticking a pushpin in the current directory – so you can pop back to it later – and going somewhere else, ex: pushd go/to/new/file)
+popd
+  pop directory (pops you back to the "pushed" directory)
+touch touch newfile.txt
+  creates a new file
+cp cp originalfile.txt newfile.txt
+  copy a file or directory; use cp -r to copy a directory with files in it; use a trailing /to make sure the file is a directory
+mv mv oldfile.txt newfile.txt
+  move a file or directory; this is actually renaming files. weird.less
+less test.txt
+  page through a file; displays contents of a file – use q to quit or exit.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>END
